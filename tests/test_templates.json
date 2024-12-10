@@ -1,0 +1,50 @@
+[
+    {"name": "NoteForm",
+     "title": "Meeting Notes",
+     "note": "Discussed project milestones and deadlines."},
+
+    {"name": "OrderForm",
+     "user_name": "Alice",
+     "order_date": "2024-12-01",
+     "amount": "$150"},
+
+    {"name": "FeedbackForm",
+     "user_name": "Bob",
+     "email": "bob@example.com",
+     "message":  "Great service, very satisfied!"},
+
+    {"name": "ContactForm",
+     "user_name":"Charlie",
+     "email":"charlie@example.com",
+     "phone":"+7 123 456 78 90"},
+
+    {"name":"NoteForm",
+     "note":"Important notes for the upcoming meeting."},
+
+    {"name":"OrderForm",
+     "user_name":"Alice",
+     "order_date":"2024-12-01",
+     "amount":"$200"},
+
+    {"name":"FeedbackForm",
+     "user_name":"Alice",
+     "email":"alice@example.com"},
+
+    {"name":"ContactForm",
+     "user_name":"David",
+     "phone":"+7 987 654 32 10"},
+
+    {"name":"NoteForm",
+     "title":"Team Meeting Notes"},
+
+    {"name":"OrderForm",
+     "amount":"$100"},
+
+    {"order_date":"2024-12-01",
+     "amount":"$200"},
+
+    {"fail_1":"2024-12-01",
+     "fail_2":"$200",
+     "fail_3":"asd@qwe.ru",
+     "fail_4":"+7 123 456 78 90"}
+]

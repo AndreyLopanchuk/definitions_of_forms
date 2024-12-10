@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "definitions-of-forms"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Lopanchuk <dred2spb79@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+pydantic = "^2.10.3"
+motor = "^3.6.0"
+orjson = "^3.10.12"
+pydantic-settings = "^2.6.1"
+python-multipart = "^0.0.19"
+
+[tool.black]
+line-length = 119
+
+[tool.isort]
+line_length = 120
+
+[tool.mypy]
+ignore_missing_imports = true

@@ -1,0 +1,25 @@
+[
+    {
+        "name": "NoteForm",
+        "title": "text",
+        "note": "text"
+    },
+    {
+        "name": "OrderForm",
+        "user_name": "text",
+        "order_date": "date",
+        "amount": "text"
+    },
+    {
+        "name": "FeedbackForm",
+        "user_name": "text",
+        "email": "email",
+        "message": "text"
+    },
+    {
+        "name": "ContactForm",
+        "user_name": "text",
+        "email": "email",
+        "phone": "phone"
+    }
+]
