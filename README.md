@@ -1,4 +1,4 @@
-# Веб-приложение для обнаружения форм  
+# Веб-приложение для обнаружения форм
 
 ## Описание
 Приложение принимает на вход по url /get_form POST запросом данные в `x-www-form-urlencoded` формате и возвращает имя 
@@ -11,7 +11,12 @@ https://docs.google.com/document/d/1fMFwPBs53xzcrltEFOpEG4GWTaQ-5jvVLrNT6_hmC7I/
 Путь к загружаемым в базу данных шаблонам устанавливается в `config.py` в параметре `templates_path`.  
 `templates_path=None` будет работать с загруженными ранее шаблонами.
 
-## Запуск
+## Установка и Запуск
+склонируте репозиторий:
+```sh
+git clone https://github.com/AndreyLopanchuk/definitions_of_forms.git
+```
+
 для запуска веб-приложения введите команду:
 ```sh
 docker-compose up --build
@@ -19,7 +24,7 @@ docker-compose up --build
 
 ## Тестирование
 
-Для тестовых запросов запустите скрипт:  
+Для тестовых запросов перейдите в директорию с проектом и запустите скрипт:  
 ```sh
 python tests/test.py
 ```  

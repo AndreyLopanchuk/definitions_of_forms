@@ -20,7 +20,8 @@ def send_post_requests(data_list, url):
 
 
 if __name__ == "__main__":
-    file_path = os.path.join(os.getcwd(), "tests", "test_templates.json")
+    script_directory = os.path.dirname(os.path.realpath(__file__))
+    file_path = os.path.join(os.getcwd(), script_directory, "test_templates.json")
     url = "http://localhost:8000/get_form"
     data_list = read_data_from_file(file_path)
     send_post_requests(data_list, url)
